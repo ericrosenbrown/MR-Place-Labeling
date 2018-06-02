@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/hololens_scene_mapping.unity
+  isLoaded: 1
+  isActive: 1

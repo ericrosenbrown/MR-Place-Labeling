@@ -1,0 +1,1 @@
+C:\Users\robot\Documents\GitHub\FromScratch\UWP\FromScratch\FromScratch.csproj;x86
