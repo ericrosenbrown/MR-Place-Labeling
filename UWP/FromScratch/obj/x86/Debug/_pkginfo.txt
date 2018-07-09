@@ -1,1 +1,1 @@
-C:\Users\robot\Documents\GitHub\FromScratch\UWP\FromScratch\AppPackages\FromScratch_1.0.19.0_x86_Debug_Test\FromScratch_1.0.19.0_x86_Debug.appx
+C:\Users\robot\Documents\GitHub\FromScratch\UWP\FromScratch\AppPackages\FromScratch_1.0.81.0_x86_Debug_Test\FromScratch_1.0.81.0_x86_Debug.appx

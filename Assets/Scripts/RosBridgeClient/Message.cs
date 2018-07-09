@@ -448,6 +448,28 @@ public class SensorCompressedImage : Message {
     }
 }
 
+public class SemanticLabel : Message {
+    public Point centerPoint;
+    public float length;
+    public float width;
+    public StandardString label;
+    public SemanticLabel() {
+        centerPoint = new Point(new byte[0]);
+        length = 0.0f;
+        width = 0.0f;
+        label = new StandardString();
+    }
+}
+public class SemanticMap2D : Message {
+    public NavigationOccupancyGrid rawMap;
+    public SemanticLabel[] labels;
+    public SemanticMap2D() {
+        rawMap = new NavigationOccupancyGrid();
+        labels = new SemanticLabel[0];
+    }
+
+}
+
 public class StandardTime : Message {
     public int secs;
     public int nsecs;

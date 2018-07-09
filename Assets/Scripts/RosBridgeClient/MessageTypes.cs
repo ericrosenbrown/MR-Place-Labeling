@@ -58,7 +58,9 @@ public static class MessageTypes {
             { "shape_msgs/SolidPrimitive", typeof(ShapeSolidPrivitive)},
             { "shape_msgs/Mesh", typeof(ShapeMesh)},
             { "shape_msgs/MeshTriangle", typeof(ShapeMeshTriangle)},
-            { "shape_msgs/Plane", typeof(ShapePlane)}
+            { "shape_msgs/Plane", typeof(ShapePlane)},
+            { "ros_reality_bridge_msgs/SemanticLabel", typeof(SemanticLabel)},
+            { "ros_reality_bridge_msgs/SemanticMap2D", typeof(SemanticMap2D)}
         };
     public static string RosMessageType(Type messageType) {
         return Dictionary.FirstOrDefault(x => x.Value == messageType).Key;

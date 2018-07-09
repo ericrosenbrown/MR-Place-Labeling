@@ -224,6 +224,18 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>Assets/HoloToolkit/Utilities/Scripts/GLTF/Plugins/JsonNet/Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="MathNet.Numerics">
+      <HintPath>Assets/RosSharp/Plugins/MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>Assets/RosSharp/Plugins/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="UrdfImporter">
+      <HintPath>Assets/RosSharp/Plugins/UrdfImporter.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets/RosSharp/Plugins/websocket-sharp.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/robot/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
     </Reference>
@@ -232,18 +244,6 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/robot/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>Assets/RosSharp/Plugins/websocket-sharp.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading">
-      <HintPath>Assets/RosSharp/Plugins/System.Threading.dll</HintPath>
-    </Reference>
-    <Reference Include="MathNet.Numerics">
-      <HintPath>Assets/RosSharp/Plugins/MathNet.Numerics.dll</HintPath>
-    </Reference>
-    <Reference Include="UrdfImporter">
-      <HintPath>Assets/RosSharp/Plugins/UrdfImporter.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -939,6 +939,8 @@
     <Compile Include="Assets\RosSharp\Scripts\UrdfComponents\MoveItUrdfPatcher.cs" />
     <Compile Include="Assets\RosSharp\Scripts\UrdfComponents\RigidbodyUrdfDataManager.cs" />
     <Compile Include="Assets\RosSharp\Scripts\UrdfComponents\UrdfPatcher.cs" />
+    <Compile Include="Assets\Scripts\GetPosition.cs" />
+    <Compile Include="Assets\Scripts\GetRelativePosition.cs" />
     <Compile Include="Assets\Scripts\HoloLensSettingManager.cs" />
     <Compile Include="Assets\Scripts\PrintQuaternion.cs" />
     <Compile Include="Assets\Scripts\RosBridgeClient\JObjectExtensions.cs" />
@@ -949,8 +951,12 @@
     <Compile Include="Assets\Scripts\RosBridgeClient\RosSocket.cs" />
     <Compile Include="Assets\Scripts\RosBridgeClient\UrdfImporter.cs" />
     <Compile Include="Assets\Scripts\RosBridgeClient\UwpWebsocket.cs" />
+    <Compile Include="Assets\Scripts\ScanManager.cs" />
     <Compile Include="Assets\Scripts\SpeechHandler.cs" />
+    <Compile Include="Assets\Scripts\SphereNameManager.cs" />
     <Compile Include="Assets\Scripts\TapForSpheres.cs" />
+    <Compile Include="Assets\Scripts\TapToLoadSpheres.cs" />
+    <Compile Include="Assets\Scripts\TapToSaveSpheres.cs" />
     <Compile Include="Assets\Ultimate Game Tools\MeshSimplify\Data\Scripts\SimplifyMeshPreview.cs" />
     <Compile Include="Assets\Ultimate Game Tools\MeshSimplify\Scripts\MeshSimplify.cs" />
     <Compile Include="Assets\Ultimate Game Tools\MeshSimplify\Scripts\MeshUniqueVertices.cs" />

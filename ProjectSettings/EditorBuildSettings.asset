@@ -12,11 +12,17 @@ EditorBuildSettings:
     path: Assets/HoloToolkit-Examples/Input/Scenes/InputTapTest.unity
     guid: fc69f7c82d7c3e74baa3f1a6c33b3ee0
   - enabled: 0
-    path: Assets/Scenes/SemanticMapping.unity
+    path: Assets/Scenes/GoodScenes/SemanticMapping.unity
     guid: 6d2e3c04f47c9814c90319b99eba0eec
   - enabled: 0
     path: Assets/HoloToolkit-Examples/Input/Scenes/SelectedObjectKeywords.unity
     guid: a313e5f9ea315a641948eda6861de735
-  - enabled: 1
-    path: Assets/Scenes/hololens_scene_mapping.unity
+  - enabled: 0
+    path: Assets/Scenes/GoodScenes/hololens_scene_mapping.unity
     guid: dcc9a9e1c440ecf4b88264077c27b4c2
+  - enabled: 0
+    path: Assets/Scenes/SaveMap.unity
+    guid: a5563009840121f4c81d59a6ba95aa7b
+  - enabled: 1
+    path: Assets/Scenes/GoodScenes/hololens_scene_load_map.unity
+    guid: 267411f3551a9964abf4820c696aa3cc

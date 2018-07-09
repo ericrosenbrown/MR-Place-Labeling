@@ -3,12 +3,15 @@ using HoloToolkit.Unity.InputModule;
 using RosSharp.RosBridgeClient;
 
 public class SpeechHandler : MonoBehaviour, ISpeechHandler {
+
+    public GameObject sphere;
   
     void ISpeechHandler.OnSpeechKeywordRecognized(SpeechEventData eventData) {
     }
 
     // Sends the goal position to MoveIt
     public void Plan() {
+        sphere.GetComponent<Renderer>().material.color = Color.green;
         Debug.Log("Plan");
         //GameObject go = GameObject.CreatePrimitive(PrimitiveType.Sphere);
         //go.AddComponent<Animation>();
